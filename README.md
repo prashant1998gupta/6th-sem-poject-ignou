@@ -1,13 +1,4 @@
-# 👨‍⚕️ Clinic Management System - Made using C#, ASP.net
-
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](#)
-[![GitHub Forks](https://img.shields.io/github/forks/harismuneer/Clinic-Management-System-ASP.NET.svg?style=social&label=Fork&maxAge=2592000)](https://www.github.com/harismuneer/Clinic-Management-System-ASP.NET/fork)
-[![GitHub Issues](https://img.shields.io/github/issues/harismuneer/Clinic-Management-System-ASP.NET.svg?style=flat&label=Issues&maxAge=2592000)](https://www.github.com/harismuneer/Clinic-Management-System-ASP.NET/issues)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat&label=Contributions&colorA=red&colorB=black	)](#)
-
-
-
-A fully featured Clinic Management System having a well designed Database Schema made as a final project for the course "Database Systems CS203" during my 4th Semester at [IGNOU](http://ignou.ac.in/). Its based on the 3 Tier Architecture.
+A fully featured Clinic Management System having a well designed Database Schema 6th sem project MCA  [IGNOU](http://ignou.ac.in/). Its based on the 3 Tier Architecture.
 
 ## Technologies Used:
 
@@ -21,23 +12,6 @@ For Database: SQL
 * [Microsoft Visual Studio](https://visualstudio.microsoft.com/vs/community/)
 * [Microsoft SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-editions-express)
 * [Microsoft SQL Server Management Studio (SSMS)](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017)
-
-## Interface
-Some screenshots of the pages.
-
-### Signup Page 
-<img src="../master/images/main1.png"/>
-
-### Take Appointment
-<img src="../master/images/appointment1.png"/> 
-
-### Current Appointments
-<img src="../master/images/current1.png"/> 
-
-### Search Staff
-<img src="../master/images/search.png"/> 
-
-
 
 ## Functionalities Implemented:
 Our project revolves around three major classes of users. Characteristics of each class are listed below
@@ -70,29 +44,4 @@ Our project revolves around three major classes of users. Characteristics of eac
 * **4.	View Other Staff**: Admin can view other staff members along with their designations.
 * **5.	Search Box**: Admin can search for a specific employ within the company by name
 * **6.	Add/Remove**: Admin can Add/remove doctors patients and other staff members form the clinic.
-
-
-## How to Run
-1- Install the following:
-* [Microsoft Visual Studio](https://visualstudio.microsoft.com/vs/community/)
-* [Microsoft SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-editions-express)
-* [Microsoft SQL Server Management Studio (SSMS)](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017)
-
-2- Open SQL Server Management Studio and in the "Connect to Database Engine" window type the following:
-```
-Servername: .\SQLEXRPESS
-Authentication: Windows Authentication 
-```
-<p align="center">
-<img src="../master/images/connection.png" width = "500"/> 
-</p>
-
-3- Now open Schema.sql file in Database Files folder and execute it all. This will create the database and the tables. Afterwards execute the following sql files: Admin.sql, Doctor.sql, Patient.sql, Signup.sql.
-
-4- Now execute the Insertions.sql file in Database Files folder. This will populate the database with some test entries. Moreover, some login emails and passwords of doctors, patients and admin are placed in the Insertions.sql file. You can use them to test the functionalities of the system.
-
-5- Everything is setup now! You can run the Visual Studio Project by opening Clinic Management System.sln and then select the SignUp.aspx page and click run button named IIS Express. 
-<p align="center">
-<img src="../master/images/run1.png"/> 
-</p>
 
