@@ -1,0 +1,134 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="DBProject.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+     <!--------------------------------- Styling -------------------------------->
+
+    <!-- Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700|Lato:400,100,300,700,900' rel='stylesheet' type='text/css'/>
+	
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+
+
+    <!-- Patient Style -->
+    <link rel="stylesheet" href="/assets/css/patient-style.css"/>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+
+
+    <!------------------------------------Styling for Footer-------------------------------------->
+    <meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta name="keywords" content="footer, address, phone, icons" />
+
+	<link rel="stylesheet" href="/assets/css/demo.css"/>
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.css"/>
+	<link rel="stylesheet" href="/assets/css/footer-distributed-with-address-and-phones.css"/>
+      <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
+
+	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css"/>
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+           <header class="fixed-top">
+            <div id="topheader" class="p-2">
+                <div class="container top-header">
+                    <div class="row">
+                        <div class="col-6 ">
+
+                            <a class="navbar-brand" href="#">
+                                <img src="../Assets/Image%20and%20Icon/download.jpg" />
+
+                            </a>
+
+                        </div>
+                        <div class="col-3 justify-content-md-center ">
+
+                            <h3>Helpline No.</h3>
+                            <i class="fa fa-phone fa-2x" style="color: #ff6a00;"></i><a href="tel:+91-7007157959,+91-9169283629">+91-7007157959,+91-9169283629</a>
+
+
+
+                        </div>
+                        <div class="col-3 justify-content-md-center ">
+                            <h3>Email Address</h3>
+                            <i class="fas fa-envelope-square fa-2x" style="color: #ff6a00;"></i>&nbsp;<a href="mailto:prashantpaci@gamil.com">prashantpaci@gamil.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="bottomheader">
+
+                <div class="container-fluid ">
+                    <nav class="navbar navbar-expand-lg navbar-dark  " style="background-color: #1a3a5a">
+
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav " style="padding-left: 25em">
+                                <li class="nav-item active " style="padding-right: 5px;">
+                                    <a class="nav-link btn btn-outline-success " href="Home.aspx">HOME </a>
+                                </li>
+                                <li class="nav-item" style="padding-right: 5px;">
+                                    <a class="nav-link btn btn-outline-success" href="aboutus.aspx">ABOUT US</a>
+
+                                </li>
+
+                                <li class="nav-item dropdown" style="padding-right: 5px;">
+                                    <a class="nav-link dropdown-toggle btn btn-outline-success" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">COURSES
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">MBA</a>
+                                        <a class="dropdown-item" href="#">MCA</a>
+                                        <a class="dropdown-item" href="#">BCA</a>
+                                        <a class="dropdown-item" href="#">BBA</a>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item" style="padding-right: 5px;">
+                                    <a class="nav-link btn btn-outline-success" href="#">DEPARTMENT</a>
+                                </li>
+
+                                <li class="nav-item" style="padding-right: 5px;">
+                                    <a class="nav-link btn btn-outline-success" href="#">ADMISSION</a>
+                                </li>
+
+
+                                <li class="nav-item" style="padding-right: 5px;">
+                                    <a class="nav-link btn btn-outline-success" href="#">CONTACT US</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </nav>
+                </div>
+
+            </div>
+        </header>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
